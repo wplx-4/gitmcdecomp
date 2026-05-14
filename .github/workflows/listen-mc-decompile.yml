@@ -5,7 +5,7 @@ on:
       - 'src/**'
       - '.github/**'
       - '**.gradle'
-  workflow_dispatch:
+#  workflow_dispatch:
 #  If you can't post workflow_dispatch event, use this
   schedule:
     - cron: '0/5 * * * *'
